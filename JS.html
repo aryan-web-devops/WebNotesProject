@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <style>*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a h1{
+    color: darkblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1{
+    color: darkblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2{
+    background-color: white;
+    color: navy;
+    padding: 12px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-left: 5px solid steelblue;
+    border-radius: 5px;
+}
+
+p{
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+ul,
+ol{
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+li{
+    margin-bottom: 8px;
+}
+
+pre{
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin-bottom: 15px;
+    font-family: Consolas, monospace;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+th{
+    background-color: steelblue;
+    color: white;
+    padding: 12px;
+}
+
+td{
+    padding: 12px;
+    text-align: center;
+}
+
+th,
+td{
+    border: 1px solid lightgray;
+}
+
+tr:nth-child(even){
+    background-color: aliceblue;
+}
+
+button{
+    background-color: steelblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: navy;
+}
+
+hr{
+    margin: 20px 0;
+}</style>
+</head>
+<body>
+     <a href="coder.html" align="center">
+        <h1>LearnwithTitan</h1>
+    </a>
+
+
+<h1>JavaScript Complete Notes</h1>
+
+<h2>Introduction</h2>
+
+<p>
+JavaScript is a scripting language used to make webpages interactive.
+</p>
+
+<h2>Why JavaScript?</h2>
+
+<ul>
+    <li>Adds functionality to webpages</li>
+    <li>Handles user events</li>
+    <li>Manipulates HTML and CSS</li>
+    <li>Creates dynamic websites</li>
+</ul>
+
+<h2>Ways to Add JavaScript</h2>
+
+<ol>
+    <li>Inline JavaScript</li>
+    <li>Internal JavaScript</li>
+    <li>External JavaScript</li>
+</ol>
+
+<h2>Syntax Example</h2>
+
+<pre>
+let name = "Aryan";
+console.log(name);
+</pre>
+
+<h2>Variables</h2>
+
+<table border="1">
+<tr>
+    <th>Keyword</th>
+    <th>Description</th>
+</tr>
+
+<tr>
+    <td>var</td>
+    <td>Old way to declare variables</td>
+</tr>
+
+<tr>
+    <td>let</td>
+    <td>Block scoped variable</td>
+</tr>
+
+<tr>
+    <td>const</td>
+    <td>Constant value</td>
+</tr>
+</table>
+
+<h2>Data Types</h2>
+
+<ul>
+    <li>String</li>
+    <li>Number</li>
+    <li>Boolean</li>
+    <li>Undefined</li>
+    <li>Null</li>
+    <li>Object</li>
+    <li>Array</li>
+</ul>
+
+<h2>Functions</h2>
+
+<pre>
+function greet()
+{
+    alert("Hello");
+}
+</pre>
+
+<h2>Conditional Statements</h2>
+
+<pre>
+let age = 18;
+
+if(age >= 18)
+{
+    console.log("Adult");
+}
+else
+{
+    console.log("Minor");
+}
+</pre>
+
+<h2>Loops</h2>
+
+<pre>
+for(let i=1;i<=5;i++)
+{
+    console.log(i);
+}
+</pre>
+
+<h2>DOM Manipulation</h2>
+
+<pre>
+document.getElementById("demo")
+        .innerHTML = "Hello JavaScript";
+</pre>
+
+<h2>Event Example</h2>
+
+<pre>
+<button onclick="showMessage()">
+Click Me
+</button>
+</pre>
+JavaScript
+    |
+    +-- Variables
+    |      |
+    |      +-- var
+    |      +-- let
+    |      +-- const
+    |
+    +-- Data Types
+    |
+    +-- Operators
+    |
+    +-- Conditions
+    |
+    +-- Loops
+    |
+    +-- Functions
+    |
+    +-- Arrays
+    |
+    +-- Objects
+    |
+    +-- DOM
+    |
+    +-- Events
+    |
+    +-- ES6+
